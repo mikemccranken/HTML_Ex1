@@ -1,0 +1,157 @@
+/* The formatting styles for the HTML */
+html{
+    background-image: url("../images/bats.gif");
+    background-repeat: repeat;
+    }
+    
+    /*The styles for the body*/
+    body {
+    width: 836px;
+    background-color: white;
+    border: black solid 10px;
+    box-shadow: 0px 0px 50px black;
+    margin: 0 auto;
+    border-radius: 5px 5px 5px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 110%;
+    }
+    
+    /*Style for header*/
+    header img {
+    float: left;
+    margin-right: 1em;
+    }
+    
+    header {
+    border: black solid 3px;
+    border-width: 0px 0px 3px 0px;
+    background-image: -webkit-linear-gradient(30deg, white 0%, orange 75%, black 99%);
+    background-image: -moz-linear-gradient(30deg, white 0%, orange 75%, black 99%);
+    padding: 0em 1em 1em 0em;
+    margin: 0;
+    }
+    
+    header h2 {
+    font-size: 225%;
+    margin: 0;
+    }
+    
+    header h3 {
+    font-size: 120%;
+    margin: 0;
+    padding-left: 1em;
+    }
+    
+    main {
+    clear: left;
+    padding-left: 1em;
+    padding-right: 1em;
+    }
+    
+    main h1 {
+    font-size: 140%;
+    }
+    main h3 {
+    
+    }
+    
+    section{
+    width: 560px;
+    float: right;
+    padding: 0 20px 20px;
+    }
+    
+    section h3{
+    padding: 0px;
+    }
+    
+    /*Styles for the body*/
+    h1:first-letter { font-size: 200%}
+    
+    ul{
+    padding: 0;
+    }
+    
+    a:link, a:visited {color: orange; font-weight: bold;}
+    
+    a:hover, a:focus {color:green}
+    
+    aside {
+    width: 162px;
+    float: left;
+    padding: 20px 0 20px 20px;
+    }
+    
+    /*Styles for the Footer*/
+    footer {
+    font-size: 85%;
+    clear:both;
+    text-align: center;
+    border: black solid 3px;
+    border-width: 3px 0px 0px 0px;
+    padding: .75em;
+    background-image: -webkit-linear-gradient(30deg, black 0%, orange 25%, white 99%);
+    background-image: -moz-linear-gradient(30deg, white 0%, orange 25%, black 99%);
+    }
+    
+    #nav_menu ul {
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    }
+    
+    #nav_menu ul li {
+    float: left;
+    }
+    
+    #nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    }
+    
+    #nav_menu ul li a {
+    display: block;
+    width: 137px;;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    }
+    
+    #nav_menu ul li a.current {
+    color: orange;
+    }
+    
+    #nav_menu ul ul li {
+    float: none;
+    }
+    
+    #nav_menu ul li:hover > ul {
+    display: block;
+    }
+    
+    #nav_menu>ul::after{
+    content: "";
+    display: block;
+    clear: both;
+    }
+    
+    #nav_menu ul .sub-menu a:hover{
+    background: #a9a6a6;
+    }
+    .side-nav li{
+    list-style: none;
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+    background: orange;
+    }
+    .side-nav li a{
+    text-decoration: none;
+    color: #000;
+    }
